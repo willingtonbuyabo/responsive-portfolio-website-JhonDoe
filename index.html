@@ -5,26 +5,46 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
         <!-- ===== CSS ===== -->
-        <link rel="stylesheet" href="assets/css/styles.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+         <!-- bootstrap css -->
+      <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+	   <!-- Responsive-->
+      <link rel="stylesheet" href="assets/css/responsive.css">
+	   <!-- Scrollbar Custom CSS -->
+      <link rel="stylesheet" href="assets/css/jquery.mCustomScrollbar.min.css">
+      <!-- Tweaks for older IEs-->
+      <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+      <!-- owl stylesheets --> 
+      <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+	  <link rel="stylesheet" href="assets/css/animate.min.css">
+	  <link rel="stylesheet" href="assets/css/slick.css">
+      <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
 
         <!-- ===== BOX ICONS ===== -->
         <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+<script src="https://kit.fontawesome.com/fad3be655d.js" crossorigin="anonymous"></script>
 
-        <title>Portfolio responsive complete</title>
+        <title>Mwananchi Design Solutions</title>
     </head>
+	
     <body>
+	
         <!--===== HEADER =====-->
         <header class="l-header">
             <nav class="nav bd-grid">
                 <div>
-                    <a href="#" class="nav__logo">Jhon Doe</a>
+                    <a href="#" class="nav__logo">Mwananchi Design Solutions</a>
+					
                 </div>
-
+<div>
+<
                 <div class="nav__menu" id="nav-menu">
                     <ul class="nav__list">
                         <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
                         <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
                         <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+						<li class="nav__item"><a href="#skills" class="nav__link">Graphics</a></li>
                         <li class="nav__item"><a href="#portfolio" class="nav__link">Portfolio</a></li>
                         <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
                     </ul>
@@ -39,15 +59,35 @@
         <main class="l-main">
             <!--===== HOME =====-->
             <section class="home" id="home">
-                <div class="home__container bd-grid">
-                    <h1 class="home__title"><span>HE</span><br>LLO.</h1>
-
-                    <div class="home__scroll">
-                        <a href="#about" class="home__scroll-link"><i class='bx bx-up-arrow-alt' ></i>Scroll down</a>
-                    </div>
-
-                    <img src="assets/img/perfil.png" alt="" class="home__img">
-                </div>
+                 <div class="container">
+      <section >
+         <div class="our_main">
+            <div id="my_slider" class="carousel slide" data-ride="carousel">
+               <div class="carousel-inner">
+               <div class="carousel-item active">
+                  <img class="d-block w-100" src="assets/img/coding.jpg" alt="First slide">
+               </div>
+               <div class="carousel-item">
+                  <img class="d-block w-100" src="assets/img/rol2.jpg" alt="Second slide">
+               </div>
+               <div class="carousel-item">
+                 <img class="d-block w-100" src="assets/img/rolex.jpg" alt="Third slide">
+               </div>
+            </div>
+               <a class="carousel-control-prev" href="#my_slider" role="button" data-slide="prev">
+                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                 <span class="sr-only">Previous</span>
+               </a>
+               <a class="carousel-control-next" href="#my_slider" role="button" data-slide="next">
+                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                 <span class="sr-only">Next</span>
+               </a>
+            </div>
+          </div>
+          <button class="seemore_bt">See More</button>
+      </div>
+      </section>
+      </div>
             </section>
             
             <!--===== ABOUT =====-->
@@ -60,9 +100,9 @@
                     </div>
 
                     <div>
-                        <h2 class="about__subtitle">I'am Jhon Doe</h2>
+                        <h2 class="about__subtitle">We at Mwananchi Design Solutions</h2>
                         <span class="about__profession">Web designer</span>
-                        <p class="about__text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci consectetur, architecto quas fugiat, iste inventore facere repellendus delectus id, vitae blanditiis.</p>
+                        <p class="about__text">Mwananchi design solutions represents considerable Graphic Design, and Social Media Solutions, all with a large number of alternatives to suit your necessities.<br>With more than 2 years of configuration experience and spending alternatives that are sensible on any scale, we value offering the best quality administrations to both expansive organizations and little scale organizations alike.</p>
 
                         <div class="about__social">
                             <a href="#" class="about__social-icon"><i class='bx bxl-linkedin' ></i></a>
@@ -75,17 +115,46 @@
 
             <!--===== SKILLS =====-->
             <section class="skills section" id="skills">
-                <h2 class="section-title">Skills</h2>
+                <h2 class="section-title">Web development</h2>
 
                 <div class="skills__container bd-grid">
                     <div class="skills__box">
-                        <h3 class="skills__subtitle">Development</h3>
+					  <p class="about__text">Equipped with the latest technologies and personnel with computer language proficiency, we develop websites ranging from e-commerce, official corporate sites to portfolios. We strive to deliver the best eyecatchy savvy website to suite our clientelle putting in mind their target audience.</p>
+
+                        <h3 class="skills__subtitle">Front-end</h3>
                         <span class="skills__name">Html</span>
-                        <span class="skills__name">Css</span>
+                        <span class="skills__name">CSS</span>
+                        <span class="skills__name">Bootstrap</span>
                         <span class="skills__name">Javascript</span>
-                        <span class="skills__name">Scss</span>
-                        <span class="skills__name">React</span>
+                        <span class="skills__name">PHP</span>
                         <span class="skills__name">Vue</span>
+                        
+                        <h3 class="skills__subtitle">Back-end</h3>
+                        <span class="skills__name">Python</span>
+                        <span class="skills__name">Javascript</span>
+                        <span class="skills__name">JQuery</span>
+						<span class="skills__name">React</span>
+                    </div>
+
+                    <div class="skills__img">
+                        <img src="assets/img/coding.jpg" alt="">
+                    </div>
+                </div>
+            </section>
+			            <section class="skills section" id="skills">
+                <h2 class="section-title">Graphic design</h2>
+
+                <div class="skills__container bd-grid">
+                    <div class="skills__box">
+						 <p class="about__text">Eye-catchy, Pinpoint. We proudly summarise our graphics to this, thus assuring our clientelle: corporates and their clientelle graphics that deliver message in the best sauve eyecatchy method.</p>
+
+                        <h3 class="skills__subtitle"></h3>
+                        <span class="skills__name">Flyers</span>
+                        <span class="skills__name">Posters</span>
+                        <span class="skills__name">Business cards</span>
+                        <span class="skills__name">Logos</span>
+                        <span class="skills__name">Branding</span>
+                        <span class="skills__name">Advertisements</span>
                         
                         <h3 class="skills__subtitle">Design</h3>
                         <span class="skills__name">Figma</span>
@@ -94,7 +163,7 @@
                     </div>
 
                     <div class="skills__img">
-                        <img src="assets/img/skill.jpg" alt="">
+                        <img src="assets/img/design1.jpg" alt="">
                     </div>
                 </div>
             </section>
@@ -105,42 +174,42 @@
 
                 <div class="portfolio__container bd-grid">
                     <div class="portfolio__img">
-                        <img src="assets/img/work1.jpg" alt="">
+                        <img src="assets/img/site4.jpeg" alt="">
+
+                        <div class="portfolio__link">
+                            <a href="photography.html" class="portfolio__link-name">Potrait Photography</a>
+                        </div>
+                    </div>
+                    <div class="portfolio__img">
+                        <img src="assets/img/poster1.jpeg" alt="">
+
+                        <div class="portfolio__link">
+                            <a href="posters.html" class="portfolio__link-name">Posters</a>
+                        </div>
+                    </div>
+                    <div class="portfolio__img">
+                        <img src="assets/img/site1.jpeg" alt="">
+
+                        <div class="portfolio__link">
+                            <a href="#" class="portfolio__link-name">Flyers</a>
+                        </div>
+                    </div>
+                    <div class="portfolio__img">
+                        <img src="assets/img/logo1.jpeg" alt="">
+
+                        <div class="portfolio__link">
+                            <a href="#" class="portfolio__link-name">Logo Design</a>
+                        </div>
+                    </div>
+                    <div class="portfolio__img">
+                        <img src="assets/img/cars.jpg" alt="">
 
                         <div class="portfolio__link">
                             <a href="#" class="portfolio__link-name">View details</a>
                         </div>
                     </div>
                     <div class="portfolio__img">
-                        <img src="assets/img/work2.jpg" alt="">
-
-                        <div class="portfolio__link">
-                            <a href="#" class="portfolio__link-name">View details</a>
-                        </div>
-                    </div>
-                    <div class="portfolio__img">
-                        <img src="assets/img/work3.jpg" alt="">
-
-                        <div class="portfolio__link">
-                            <a href="#" class="portfolio__link-name">View details</a>
-                        </div>
-                    </div>
-                    <div class="portfolio__img">
-                        <img src="assets/img/work4.jpg" alt="">
-
-                        <div class="portfolio__link">
-                            <a href="#" class="portfolio__link-name">View details</a>
-                        </div>
-                    </div>
-                    <div class="portfolio__img">
-                        <img src="assets/img/work5.jpg" alt="">
-
-                        <div class="portfolio__link">
-                            <a href="#" class="portfolio__link-name">View details</a>
-                        </div>
-                    </div>
-                    <div class="portfolio__img">
-                        <img src="assets/img/work6.jpg" alt="">
+                        <img src="assets/img/site6.jpeg" alt="">
 
                         <div class="portfolio__link">
                             <a href="#" class="portfolio__link-name">View details</a>
@@ -151,18 +220,18 @@
 
             <!--===== CONTACT =====-->
             <section class="contact section" id="contact">
-                <h2 class="section-title">Contact</h2>
+                <h2 class="section-title">Contact us</h2>
 
                 <div class="contact__container bd-grid">
                     <div class="contact__info">
                         <h3 class="contact__subtitle">EMAIL</h3>
-                        <span class="contact__text">info.mail.com</span>
+                        <span class="contact__text">info@mwananchidesigns.com</span>
 
                         <h3 class="contact__subtitle">PHONE</h3>
-                        <span class="contact__text">+20 999-999</span>
+                        <span class="contact__text">+254 716092899</span>
 
-                        <h3 class="contact__subtitle">ADRESS</h3>
-                        <span class="contact__text">My contry</span>
+                        <h3 class="contact__subtitle">ADDRESS</h3>
+                        <span class="contact__text">MIREMA DRIVE<br>NAIROBI</span>
                     </div>
 
                     <form action="" class="contact__form">
@@ -173,7 +242,7 @@
 
                         <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
 
-                        <input type="submit" value="Enviar" class="contact__button">
+                        <input type="submit" value="Send" class="contact__button">
                     </form>
                 </div>
             </section>
@@ -183,8 +252,8 @@
         <footer class="footer section">
             <div class="footer__container bd-grid">
                 <div class="footer__data">
-                    <h2 class="footer__title">JHON DOE</h2>
-                    <p class="footer__text">I'm Jhon Doe and this is my personal website</p>
+                    <h2 class="footer__title">Mwananchi Design Solutions</h2>
+                    <p class="footer__text">Thank you for visiting us. Contact us and lets materialise your visionaries, ideas and expectations into the best catchy graphics and web pages</p>
                 </div>
 
                 <div class="footer__data">
